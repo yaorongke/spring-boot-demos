@@ -145,7 +145,9 @@ public class MailController {
 
 调用这个controller方法测试一下，收件邮箱改成实际地址，目标邮箱成功收到邮件，验证成功
 
+```shell
 localhost:8080/mail/send?to=abc@qq.com&subject=这是邮件主题&text=这是邮件内容
+```
 
 #### 三、GitHub源码地址
 
