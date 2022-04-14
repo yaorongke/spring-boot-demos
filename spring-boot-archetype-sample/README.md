@@ -4,9 +4,9 @@
 
 本文介绍自定义Archetype的创建方法，以一个工程为基础，生成 `Archetype`模板，使用模板快速创建目标工程，涉及三个工程。
 
-- **spring-boot-original：**基础工程，用这个生成 `Archetype` 模板工程
-- **spring-boot-archetype：**自定义 `Archetype` 模板工程
-- **spring-boot-target：**使用自定义 `Archetype` 生成的目标工程
+- spring-boot-original：基础工程，用这个生成 `Archetype` 模板工程
+- spring-boot-archetype：自定义 `Archetype` 模板工程
+- spring-boot-target：使用自定义 `Archetype` 生成的目标工程
 
 #### 二、自定义Archetype
 
@@ -123,15 +123,15 @@ mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=com.rkyao -Dar
 
 参数说明：
 
-- **-DarchetypeGroupId：**自定义archetype的groupId
-- **-DarchetypeArtifactId：**自定义archetype的artifactId
-- **-DarchetypeVersion：**自定义archetype的版本号
-- **-DgroupId：**要生成的工程的groupId
-- **-DartifactId：**要生成的工程的artifactId
-- **-Dpackage：**要生成的工程的包名
-- **-Dversion：**要生成的工程的版本号
-- **-DserverPort：**自定义变量，服务端口
-- **-DcontextPath：**自定义变量，服务路径
+- -DarchetypeGroupId：自定义archetype的groupId
+- -DarchetypeArtifactId：自定义archetype的artifactId
+- -DarchetypeVersion：自定义archetype的版本号
+- -DgroupId：要生成的工程的groupId
+- -DartifactId：要生成的工程的artifactId
+- -Dpackage：要生成的工程的包名
+- -Dversion：要生成的工程的版本号
+- -DserverPort：自定义变量，服务端口
+- -DcontextPath：自定义变量，服务路径
 
 #### 三、GitHub源码地址
 
