@@ -134,3 +134,5 @@ mvn archetype:generate -DinteractiveMode=false -DarchetypeGroupId=com.rkyao -Dar
 - **-DcontextPath：**自定义变量，服务路径
 
 #### 三、GitHub源码地址
+
+https://github.com/yaorongke/spring-boot-demos/tree/main/spring-boot-archetype-sample
